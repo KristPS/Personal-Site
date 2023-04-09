@@ -1,0 +1,62 @@
+.header p {
+    text-align: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic
+}
+
+ul {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex: 1;
+    img: unset;
+}
+
+main {
+    background: rgb(133, 203, 133);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    background: rgb(57, 164, 57);
+    height: 100px;
+    padding: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    margin-left: 350px;
+}
+
+
+body {
+    background-image: url("road.jpg");
+    flex: 1;
+}
+
+.aboutpage {color: red;}
