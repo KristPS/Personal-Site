@@ -1,0 +1,55 @@
+p {
+    line-height: 1.5;
+}
+
+header {
+    background-color: rgb(57, 164, 57);
+    height: 90px;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: auto;
+    border-style: double;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    padding-top: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body {
+    background-image: url("background2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    flex: 1
+}
