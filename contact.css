@@ -1,63 +1,75 @@
 header {
-    background-color: rgb(57, 164, 57);
-    height: 90px;
-    padding: 50px;
-    text-align: center;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    margin: auto;
-    border-style: double;
+  background-color: rgb(57, 164, 57);
+  height: 90px;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  margin: auto;
+  border-style: double;
 }
 
 ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin: 0;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0;
+  justify-content: space-evenly;
 }
 
 li {
-    list-style: none;
-    padding: 10px;
-    cursor: pointer;
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
 }
 
 h1 {
-    text-align: center;
-    font-size: 28px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-form {display:flex;
-flex-direction: column;
-
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 input, button {
-width:20%;
-height:40px;
-font-size: 20px;
-margin:15px;
+  width: 20%;
+  height: 40px;
+  font-size: 20px;
+  margin: 15px;
+}
 
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #76da7b;
 }
 
 button {
-    width: 20.5%;
-    border-radius: 10px;
-    margin: 15px;
-    
+  width: 20.5%;
+  border-radius: 10px;
+  margin: 15px;
 }
 
 label {
-    margin:10px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+  margin: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
 }
 
 input {
-    border-radius:10px ;
+  border-radius: 10px;
 }
+
